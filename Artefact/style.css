@@ -1,0 +1,174 @@
+
+/* Global styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ /* Header styles */
+ header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   height: 50px;
+   margin-bottom: 10px;
+ }
+ 
+ nav ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ nav li {
+   display: inline-block;
+   margin-right: 20px;
+ }
+ 
+ nav a {
+   color: #fff;
+   text-decoration: none;
+ }
+ nav h1{
+    text-align: center;
+   margin-top: -10px;
+ }
+ #h3-recommend{
+   padding-left: 60px;
+   color: rgb(129, 129, 227);
+ }
+ /* Wrapper styles */
+ .wrapper {
+   display: flex;
+ }
+ 
+ /* Sidebar styles */
+ aside { 
+   width: auto;
+   padding-left: 30px;
+   padding-top: 20px;
+
+ 
+
+ }
+ 
+ /* Main styles */
+ main {
+   flex-grow: 1;
+   padding: 10px;
+   text-align: center;
+ }
+ 
+ /* Footer styles */
+ footer {
+   background-color: #333;
+   color: #fff;
+   padding: 10px;
+   text-align: center;
+ }
+
+
+#aside{
+   display: flex;
+   gap: 10px;
+   
+
+}
+#aside div{
+   min-height: 100px;
+}
+aside h6{
+  height: auto;
+  width: 60%;
+  display: block;
+  background-color: bisque;
+}
+
+#stats{
+   height: 300px;
+   width: 60%;
+   background-image: url();
+   margin: auto;
+   
+}
+img{
+   max-width: 100%;
+   max-height: 100%;
+   display:block;
+}
+.risk-container{
+   display:inherit;
+   justify-content:center;
+   align-items: center;
+   margin-top: 40px;
+ }
+ 
+ .box {
+   width: 60%;
+   height: 40px;
+   margin:10px auto;
+   border-radius: 10px 20px;
+   padding:10px
+ }
+ .box:hover{
+
+   border: 2px solid rgb(234, 218, 218);
+   border-radius:20px 10px;
+   
+ }
+ .box p{
+   text-align: center;
+ }
+
+.risk-container #box1{
+  background-color: rgb(238, 91, 91);
+}
+.risk-container #box2{
+  background-color: rgb(212, 212, 54);
+}
+.risk-container #box3{
+  background-color: rgb(61, 134, 70);
+}
+
+main #recommendation{
+  border: 2px solid red;
+  display: block;
+  min-height: 100px;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+#drop-holder1 select{
+  width: 300px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px;
+}
+
+#drop-holder2 select{
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 17px;
+  padding: 5px;
+}
+
+#drop-holder1 option{
+  color: #333;
+  background-color: rgb(167, 28, 28);
+  font-size: 14px;
+}
+
+
+
+
+
+

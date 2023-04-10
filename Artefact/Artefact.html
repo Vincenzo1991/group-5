@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>  
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <h1>G5 Risk Assesment Platform</h1>
+    </nav>
+  </header>
+  <h3 id="h3-recommend">Please Correctly answer the following questions</h3>
+
+  <div class="wrapper">   
+    <aside id="aside">
+  
+      
+      <div id="drop-holder1">
+        <div>
+        <select>
+          <option value="">Is the system up to date for the most recent security patches?</option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+         
+        </select>
+      </div>
+      <div>
+        <select>
+          <option value=""><p>Are exploitable services terminated and removed?</p></option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+        </select>
+      </div>
+      <div>
+        <select>
+          <option value=""><p>Are there unnecessary open ports? e.g. ports not used for anything</p></option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+          
+        </select>
+      </div>
+      <div>
+        <select>
+          <option value=""><p>Are exploitable ports closed? 
+            <br/> FTP, SSH, Telnet etc.</p></option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+         
+        </select>
+      </div>
+      <div>
+        <select>
+          <option value=""><p>Is there an effective firewall in place using rulesets</p></option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+          
+        </select>
+      </div>
+      <div>
+        <select>
+          <option value=""><p>Are important databases abstracted 
+            (dont know where they are for security)</p></option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+         
+        </select>
+      </div>
+      <div>
+        <select>
+          <option value=""><p>Is there proper input sanitization/checks?</p></option>
+          <option value="option1">YES</option>
+          <option value="option2">NO</option>
+        </select>
+      </div>
+      </div>
+      
+      <div id="drop-holder2">
+        <div>
+          <select>
+            <option value=""><p>Is there sufficient access control measures?</p></option>
+            <option value="option1">YES</option>
+            <option value="option2">NO</option>
+            
+          </select>
+        </div>
+        <div>
+          <select>
+            <option value=""><p>Are hardware ports open? e.g. USB, Ethernet</p></option>
+            <option value="option1">YES</option>
+            <option value="option2">No</option>
+           
+          </select>
+        </div>
+        <div>
+          <select>
+            <option value=""><p>Is there Host/Network Intrusion Detection/Prevention System in place?</p></option>
+            <option value="option1">Yes</option>
+            <option value="option2">No</option>
+           
+          </select>
+        </div>
+        <div>
+          <select>
+            <option value=""><p>Is anti-malware/antivirus in place?</p></option>
+            <option value="option1">YES</option>
+            <option value="option2">NO</option>
+           
+          </select>
+        </div>
+        <div>
+          <select>
+            <option value=""><p>Is there a Security Information & Event Management implementation in place?</p></option>
+            <option value="option1">YES</option>
+            <option value="option2">NO</option>
+          </select>
+        </div>
+        <div>
+          <select>
+            <option value="">Are there regular backups of data/files?</option>
+            <option value="option1">YES</option>
+            <option value="option2">Rarely Backup</option>
+            <option value="option3">NO</option>
+          </select>
+        </div>
+        <div>
+          <select>
+            <option value="">To what degree are the users of the system aware of security protocols in terms of training</option>
+            <option value="option1">Knowledgable</option>
+            <option value="option2">Some Training</option>
+            <option value="option3">No Training</option>
+          </select>
+        </div>
+      </div>
+     
+    </aside>
+
+    <main>
+      <div id="stats">
+        <img src="./images/stateimage.jpg" alt="stateimage">
+      </div>
+      <div class="risk-container">
+        <div class="box" id="box1">
+          <p>High Risk Factor </p>
+        </div>
+        <div class="box" id="box2">
+          <p>Medium Risk Factor</p>
+        </div>
+        <div class="box" id="box3">
+          <p>Low Risk Factor</p>
+        </div>
+      </div>
+        <h3>Recommendation</h3>
+      <div id="recommendation">
+        <p>Recommendation</p>
+      </div>
+      
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 My Cybersecurity (G5) Home Page</p>
+  </footer>
+   
+</body>
+</html>
